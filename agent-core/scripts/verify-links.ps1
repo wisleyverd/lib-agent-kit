@@ -15,7 +15,9 @@ $PathsToCheck = @(
     @{ Name = "Gemini Rules";          Path = Join-Path $UserProfile ".gemini\config\rules" },
     @{ Name = "Gemini Plugin: spec-kit"; Path = Join-Path $UserProfile ".gemini\config\plugins\spec-kit" },
     @{ Name = "Gemini Skill: spec-kit";  Path = Join-Path $UserProfile ".gemini\config\skills\spec-kit" },
+    @{ Name = "Gemini Skill: repo-memory"; Path = Join-Path $UserProfile ".gemini\config\skills\repo-memory" },
     @{ Name = "Claude Rules";          Path = Join-Path $UserProfile ".claude\CLAUDE.md" },
+
     @{ Name = "Cursor Rules";          Path = Join-Path $UserProfile ".cursor\AGENTS.md" }
 )
 

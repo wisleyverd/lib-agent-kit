@@ -21,6 +21,8 @@ $RECYCLE.BIN/
 .idea/
 *.sublime-project
 *.sublime-workspace
+*.code-workspace
+
 
 # Node / Python / Dependencies
 node_modules/
