@@ -1,0 +1,5 @@
+{
+  "name": "spec-kit",
+  "description": "Plugin para integração e automação com o GitHub Spec Kit (specify-cli) e Spec-Driven Development",
+  "version": "1.0.0"
+}
