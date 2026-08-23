@@ -78,4 +78,13 @@ Este documento define a constituição operacional, padrões de engenharia, gove
   ```
 - **Fluxo Spec-Driven**: Adote a metodologia de especificações, planos e listas atômicas de tarefas (`/spec.specify`, `/spec.plan`, `/spec.tasks`, `/spec.implement`, `/spec.verify`) para garantir clareza antes de grandes desenvolvimentos.
 
+---
+
+## 8. Memória Estrutural de Repositório (`repo-memory`)
+
+- **Consulta Prévia Obrigatória**: Antes de iniciar grandes refatorações, mudar arquitetura ou adicionar dependências, inspecione a existência de `docs/adr/` e `.knowledge/` para respeitar decisões e restrições já deliberadas.
+- **Registro de Novas Decisões (ADRs)**: Ao propor uma mudança arquitetural significativa ou padrão estrutural, registre uma Architecture Decision Record em `docs/adr/` utilizando o padrão do kit.
+- **Prevenção de Erros Passados (Knowledge Items - KIs)**: Ao solucionar bugs recorrentes, limitações de bibliotecas ou anti-padrões descobertos, registre um Knowledge Item em `.knowledge/ki-XXX.md` para impedir que futuros agentes e sessões repitam o mesmo erro.
+
+
 

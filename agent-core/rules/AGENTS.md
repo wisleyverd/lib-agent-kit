@@ -35,3 +35,9 @@ Este documento estabelece regras operacionais agnósticas compatíveis com múlt
   specify init --here --force --non-interactive --integration <copilot|claude|gemini|codex> --script ps
   ```
 
+---
+
+## 5. Memória Estrutural e ADRs
+
+- Consulte sempre `docs/adr/` e `.knowledge/` antes de propor grandes alterações.
+- Registre novas decisões em `docs/adr/` e lições aprendidas em `.knowledge/` para evitar regressões e repetição de falhas passadas.
