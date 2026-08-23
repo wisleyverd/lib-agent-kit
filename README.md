@@ -25,7 +25,11 @@ lib-agent-kit/
 │   │   ├── GEMINI.md
 │   │   ├── AGENTS.md
 │   │   └── CLAUDE.md
+│   ├── plugins/           # Pacotes de plugins globais com manifest oficial
+│   │   └── spec-kit/      # Plugin do GitHub Spec Kit
 │   ├── skills/            # Registro e repositório de skills customizadas
+│   │   ├── repo-memory/   # Gestão de memória persistente, ADRs e KIs
+│   │   ├── spec-kit/      # Skill e comandos do Spec Kit
 │   │   └── README.md
 │   ├── scripts/           # Automação de sincronização via Symlinks/Junctions (PowerShell)
 │   │   ├── sync-symlinks.ps1
@@ -33,6 +37,7 @@ lib-agent-kit/
 │   └── README.md
 ├── .gitignore
 └── README.md              # Documentação principal
+
 ```
 
 ---
